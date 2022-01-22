@@ -6,8 +6,6 @@
   font-size: 13.5px;
   font-weight: 300;
 
-  margin: 35px 35px 30px 35px;
-
   > div {
     -webkit-print-color-adjust: exact;
   }
@@ -18,6 +16,9 @@
   flex-direction: column;
   align-items: center;
 
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
   margin-bottom: 12px;
 }
 
@@ -43,6 +44,10 @@
 
 
 .body {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+
   div:last-child {
     margin-bottom: 0px;
   } 

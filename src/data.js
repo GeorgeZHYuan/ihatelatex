@@ -28,9 +28,9 @@ export const workExperience = [
     date: `Jan – April, Sept – Dec 2021`,
     address: `Toronto, Ontario (Remote)`,
     details: [
-      `Built and maintained web features, REST API, SQL queries, integration tests and CI/CD pipelines as full stack developer`,
-      `Drove end-to-end feature development, collaborated with product team to design product workflows, created mockups, sequence diagrams and REST API for feature requests/investigations, and gathered feedback after launch`,
-      `Redesigned rigid server status tracker into accordion-table structure, used recursive algorithms and Semantic UI React library to generate DOM layout, and provided live updates through mapped Redux states`,  
+      `Built and maintained web features, REST API, SQL queries, integration tests and CI/CD pipelines as full stack developer for data analytics tool`,
+      `Led end-to-end development of code viewer feature, collaborated with product team to design product workflows, created mockups, sequence diagrams and REST API documentation for tech spec, developed core components, and gathered feedback after launch`,
+      `Redesigned static server status tracking tool into an accordion-table structure, used recursive algorithms and Semantic UI React library to generate DOM layout, and provided live updates through mapped Redux states`,  
       `Identified incorrect primary/foreign key mappings causing crashes, cleaned database after functional testing on dev/prod environments, udpated queries and added error handling for REST API`,
       `Dockerized Selenium test suite, deployed to EKS with sidecar approach, automated error/crash recovery through chrome driver status tracking and helm liveness probes, and created paramaterized Jenkins pipeline for launching`,
     ]
@@ -41,9 +41,9 @@ export const workExperience = [
     date: `Sept 2019 – Dec 2019`,
     address: `Waterloo, Ontario`,
     details: [
-      `Implemented warning/detection systems against slipping, component detachment and crashing for autonomous robot`,
+      `Implemented user interfaces and warning/detection systems against slipping, component detachment and crashing for autonomous robot using C++, Python and JavaScript`,
       `Performed data analysis from field test data and live feeds via sockets from ROS publisher/subscriber framework`,
-      `Developed robot human communication systems, designed state machine for multi-threaded response network and audio resources, collaborated with product team for optimal audio control settings and response timing.`,
+      `Developed robot human communication systems, designed state machine to manage multi-threaded robot states and audio resources, collaborated with product team to determine control settings and response times for optimal customer experience.`,
     ]
   },
   {
@@ -62,8 +62,8 @@ export const workExperience = [
     date: `May 2018 – Aug 2018`,
     address: `Calgary, Alberta`,
     details: [
-      `Developed single sign-on template function, authenticated using SAML with PassportJ with JWT Tokens for statelessness and scalability, and demoed using browser side caching for credentials`,
-      `Digitized oil task authorization system, created React forms, backend verification in NodeJs, and NoSQL cloud storage`
+      `Developed single sign-on template function, authenticated using SAML with PassportJ with JWT Tokens for statelessness and scalability`,
+      `Digitized oil task authorization system, created React forms with backend verification in NodeJs, and used bluemix for NoSQL cloud storage`
     ]
   }
   ]

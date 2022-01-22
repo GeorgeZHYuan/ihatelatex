@@ -132,7 +132,7 @@ const ProjectTitle = (props) => {
       <div className="subection-caption">
         {props.techStack.map((item, idx) => {
           return (
-            <span>
+            <span key={idx}>
               {idx !== 0 &&<span>, </span>}
               <span>
                 {item}
