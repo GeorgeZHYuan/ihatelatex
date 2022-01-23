@@ -1,38 +1,15 @@
 export const workExperience = [
-  // {
-  //   companyName: `Zynga`,
-  //   role: `Software Developer Intern`,
-  //   date: `Jan – April 2021`,
-  //   address: `Toronto, Ontario (Remote)`,
-  //   details: [
-  //     `Built and maintained web features, regression tests and CI/CD pipelines for analytics web tool as full stack developer`, 
-  //     `Identified and fixed incorrect primary/foreign key mappings in MySQL database, udpated queries and REST API against crashes, and conducted functional testing on dev and prod environments`, 
-  //     `Dockerized Selenium test suite, deployed to EKS with sidecar approach, automated error/crash recovery through chrome driver status tracking and helm liveness probes, and created paramaterized Jenkins pipeline for launching`,
-  //   ]
-  // },
-  // {
-  //   companyName: `Zynga`,
-  //   role: `Software Developer Intern`,
-  //   date: `Sept – Dec 2021`,
-  //   address: `Toronto, Ontario (Remote)`,
-  //   details: [
-  //     `Collaborated with product and development teams using an iterative development and review process to create design documents for product workflow, UI mockups, sequence diagrams, and REST API documentation`,
-  //     `Developed code viewer interface built inital UI and data routing from source of truth`,
-  //     `Redesigned live server status tracking tool, used recursion and Semantic UI React to generate multilevel accordion-table interface, and mapped to existing Redux states to automatically update accordion on new data events`,     
-  //   ]
-  // },
-
   {
     companyName: `Zynga`,
     role: `Software Developer Intern`,
     date: `Jan – April, Sept – Dec 2021`,
     address: `Toronto, Ontario (Remote)`,
     details: [
-      `Built and maintained web features, REST API, SQL queries, integration tests and CI/CD pipelines as full stack developer for data analytics tool`,
-      `Led end-to-end development of code viewer feature, collaborated with product team to design product workflows, created mockups, sequence diagrams and REST API documentation for tech spec, developed core components, and gathered feedback after launch`,
-      `Redesigned static server status tracking tool into an accordion-table structure, used recursive algorithms and Semantic UI React library to generate DOM layout, and provided live updates through mapped Redux states`,  
-      `Identified incorrect primary/foreign key mappings causing crashes, cleaned database after functional testing on dev/prod environments, udpated queries and added error handling for REST API`,
-      `Dockerized Selenium test suite, deployed to EKS with sidecar approach, automated error/crash recovery through chrome driver status tracking and helm liveness probes, and created paramaterized Jenkins pipeline for launching`,
+      `Built and maintained data analytics tools (React, Redux), microservices (SpringBoot, Flask) and CI/CD pipelines as fullstack developer, delivering new features, bug fixes, and solutions to inconsistent behaviour from edge cases`,
+      `Refactored SQL queires, error handling procedures, and business logic for dropdown search suggestion feature, eliminiting backend crashes while reducing redundant suggestions by 70% `,
+      `Dockerized and deployed Selenium test suite to EKS with sidecar approach, added automated error/crash recovery through chrome driver status tracking and helm liveness probes, and created paramaterized Jenkins pipeline for launching`,
+      `Parsed SQL database form inccorect primary/foreign key mappings, developed cleanup and functional testing procedures, and rolled out changes to development and production enviroments in multistage process`,
+      `Propsosed and improved integration test plans through increasing test scalability, graceful cleanups, and test plan reviews with team`,
     ]
   },
   {
