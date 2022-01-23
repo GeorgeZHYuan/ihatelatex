@@ -1,46 +1,47 @@
 export const workExperience = [
+
   {
     companyName: `Zynga`,
     role: `Software Developer Intern`,
-    date: `Jan – April, Sept – Dec 2021`,
-    address: `Toronto, Ontario (Remote)`,
+    date: `Sept – Dec 2021`,
+    address: `Toronto, ON`,
     details: [
-      `Built and maintained data analytics tools (React, Redux), microservices (SpringBoot, Flask) and CI/CD pipelines as fullstack developer, delivering new features, bug fixes, and solutions to inconsistent behaviour from edge cases`,
-      `Refactored SQL queires, error handling procedures, and business logic for dropdown search suggestion feature, eliminiting backend crashes while reducing redundant suggestions by 70% `,
-      `Dockerized and deployed Selenium test suite to EKS with sidecar approach, added automated error/crash recovery through chrome driver status tracking and helm liveness probes, and created paramaterized Jenkins pipeline for launching`,
-      `Parsed SQL database form inccorect primary/foreign key mappings, developed cleanup and functional testing procedures, and rolled out changes to development and production enviroments in multistage process`,
-      `Propsosed and improved integration test plans through increasing test scalability, graceful cleanups, and test plan reviews with team`,
+      `Built and maintained data analytics tools (React, Redux), microservices (SpringBoot, Flask) and CI/CD pipelines, satisfying user requests and improving system performance`,
+      `Redesigned search suggestion system, updating error handling, database queires, and business logic, resulting in 75% more revelancy in results and resolving all crashes from the search dropdown API`,
+      `Dockerized and deployed Selenium test suite to EKS, automated crash recovery with helm liveness probes, and created a parameterized Jenkins pipeline, setting up the infrastructure for reccurent test runs`,
+      `Investigated incorrect primary/foreign key mappings, developed cleanup and functional testing procedures, and rolled out changes to development and production enviroments`,
+    ]
+  },
+  {
+    companyName: `Zynga`,
+    role: `Software Developer Intern`,
+    date: `Jan – April 2021`,
+    address: `Toronto, ON`,
+    details: [
+      `Led the end-to-end development of a code-viewer feature, organized meetings to discuss/review trade-offs for several product designs and backend infrastructures, and developed core functionality based off design documents`,
+      `Developed server status tracking tool, used recursive algorithms and React libraries to generate accordion layout from JSON metadata, and provided live updates through mapped Redux states`,
+      `Designed and built asynchronous REST API endpoints, managing multiple redirections over microservice architecture, and authenticated by central LDAP network`
     ]
   },
   {
     companyName: `Avidbots`,
     role: `Software Developer Intern`,
     date: `Sept 2019 – Dec 2019`,
-    address: `Waterloo, Ontario`,
+    address: `Waterloo, ON`,
     details: [
-      `Implemented user interfaces and warning/detection systems against slipping, component detachment and crashing for autonomous robot using C++, Python and JavaScript`,
+      `Implemented user interfaces and warning/detection systems against slipping, component detachment and crashing for autonomous robot using C++ (OOP), Python and JavaScript`,
+      `Developed robot human communication systems, collaborated with product team to determine audio behavior, and a built state machine for multi-threaded management of robot states and audio resources`,
       `Performed data analysis from field test data and live feeds via sockets from ROS publisher/subscriber framework`,
-      `Developed robot human communication systems, designed state machine to manage multi-threaded robot states and audio resources, collaborated with product team to determine control settings and response times for optimal customer experience.`,
-    ]
-  },
-  {
-    companyName: `Consensys`,
-    role: `Software Developer Intern`,
-    date: `Jan 2019 – April 2019`,
-    address: `Waterloo, Ontario (Remote)`,
-    details: [
-      `Designed JSON based postcard generator for Crpyto crowd funder web app, used React/Redux and Styled components to generate DOM layouts based on user defined JSON`,
-      `Deployed, debugged and fixed crashing docker images/containers and pods on AWS using Helm charts and kubernetes`
     ]
   },
   {
     companyName: `IBM`,
     role: `Software Developer Intern`,
     date: `May 2018 – Aug 2018`,
-    address: `Calgary, Alberta`,
+    address: `Calgary, AB`,
     details: [
-      `Developed single sign-on template function, authenticated using SAML with PassportJ with JWT Tokens for statelessness and scalability`,
-      `Digitized oil task authorization system, created React forms with backend verification in NodeJs, and used bluemix for NoSQL cloud storage`
+      `Coded a SAML based single sign-on middleware using PassportJs with cached JWT Tokens for statelessness and scalability, allowing client identity providers to authenticate with an internal IBM service provider`,
+      `Digitized an oil task authorization system using React forms, NodeJs backend verification, and a NoSQL db on IBM cloud, reducing client document approval times by several weeks`
     ]
   }
   ]
@@ -49,14 +50,14 @@ export const workExperience = [
   {
     projectName: `Educatore`,
     techStack: [
-      `System Design`,
-      `React`,
+      `ReactJs`,
       'NodeJs',
-      `SQL`,
+      `Docker`,
       `AWS`,
+      `System Design`
     ],
     details: [
-      `Developing a microservice based education resource distribution/discussion platform for fourth year design project`,
+      `Building an data distribution platform based on cloud hosted microservice architecture for fourth year design project`,
       `Documented and designed infrastructure for load balancing multiple NodeJs servers, authentication with OAuth2.0 via PassportJs, JWT tokens distrubtion system for sessionless authentication, hosted on VPC networks on AWS`
     ]
   },
@@ -65,10 +66,11 @@ export const workExperience = [
     techStack: [
       `TypeScript`,
       `Project Managment`,
+      `Leadership`
     ],
     details: [
       `Designed team member profiles page on figma, implemented profiles, dropdowns, filters and transitions using TypeScript`,
-      `Organized meetings, created and assigned tickets to team members, and demoed features as a Team Lead`
+      `Responsible for organizing meetings, scoping features and managing 10+ entry to junior level developers as a Team Lead `
     ]
   },
   ]
@@ -77,16 +79,15 @@ export const workExperience = [
   {
     title: `Languages`,
     skills: [
-      `HTML`,
       `JavaScript (ES6)`,
       `TypeScript`,
-      `CSS`,
-      `SCSS`,
       `Python`,
       `C++`,
       `Java`,
-      `SQL`,
-      `Bash/Shell`,
+      `HTML`,
+      `CSS`,
+      `SCSS`,
+      `Bash`,
     ] 
   },
   {
@@ -96,13 +97,12 @@ export const workExperience = [
       `NodeJs`,
       `Flask`,
       `MySQL`,
-      `PostgreSQL`,
       `MongoDB`,
       `Docker`,
-      `AWS`,
       `Kubernetes`,
+      `AWS`,
       `Jenkins`,
-      `Git`,
+      `Postman`
     ] 
   },
 ]

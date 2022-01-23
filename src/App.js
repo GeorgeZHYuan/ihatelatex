@@ -55,25 +55,17 @@ S.SpacedBulletList = styled(S.CondensedBulletList)`
 `
 
 const Contacts = () => {
-
   const Email = () => <span className='contact'><a href="mailto:yuangeorge9981@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> yuangeorge9981@gmail.com</a></span>
   const Github = () => <span className='contact'><a href="https://github.com//georgezhyuan" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> georgezhyuan</a></span>
   const LinkedIn = () => <span className='contact'><a href="https://ca.linkedin.com/in/georgezhyuan" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> in/georgezhyuan</a></span>
 
   return (
     <div>
-       {/* <S.HorizontalBulletList>
-         <S.HorizontalBulletListElement><Email /></S.HorizontalBulletListElement>
-         <S.HorizontalBulletListElement><Github /></S.HorizontalBulletListElement>
-         <S.HorizontalBulletListElement><LinkedIn /></S.HorizontalBulletListElement>
-       </S.HorizontalBulletList> */}
-
-
-         <span><Email /></span>
-         <span className='contact-separator'>|</span>
-         <span ><Github /></span>
-         <span className='contact-separator'>|</span>
-         <span><LinkedIn /></span>
+      <span><Email /></span>
+      <span className='contact-separator'>|</span>
+      <span ><Github /></span>
+      <span className='contact-separator'>|</span>
+      <span><LinkedIn /></span>
     </div>
   );
 }
@@ -85,12 +77,14 @@ const WorkPosition = (props) => {
   return <div className='subsection-header'>
     <S.SpaceBetweenDiv> 
       <div>
-         <div className='subsection-title'>{props.companyName}</div>
-         <div className='work-location'>{props.role}</div>
+         <span className='subsection-title'>{props.companyName}</span>
+         <span> | </span>
+         <span className='work-location'>{props.role}</span>
       </div>
       <div className="subection-caption">
-        <div>{props.address}</div>
-        <div>{props.date} </div>
+        <span>{props.address}</span>
+        <span> | </span>
+        <span>{props.date} </span>
       </div>   
     </S.SpaceBetweenDiv>
   </div>
